@@ -1,0 +1,9 @@
+.place__website_element_first {
+  padding-top: 106px;
+}
+
+@media (max-width: 800px) {
+  .place__website_element_first {
+    padding-top: 46px;
+  }
+}

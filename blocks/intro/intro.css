@@ -1,0 +1,15 @@
+.intro {
+  margin-top: 92px;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 482px) {
+  .intro {
+    margin-top: 64px;
+  }
+}

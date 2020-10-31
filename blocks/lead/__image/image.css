@@ -1,0 +1,17 @@
+.lead__image {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+  }
+}

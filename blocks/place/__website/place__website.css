@@ -1,0 +1,15 @@
+.place__website {
+  padding: 30px 0 48px;
+}
+
+@media (max-width: 800px) {
+  .place__website {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
+}
