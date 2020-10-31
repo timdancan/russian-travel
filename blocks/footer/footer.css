@@ -17,6 +17,5 @@
   .footer {
     padding-top: 64px;
       flex-direction: column;
-      justify-content: space-between;
     }
 }

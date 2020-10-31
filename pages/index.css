@@ -40,3 +40,5 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/page-link/page-link.css);
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);

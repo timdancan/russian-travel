@@ -6,9 +6,3 @@
   margin: 0;
   margin-bottom: 12px;
 }
-
-@media (max-width: 800px) {
-  .place__url-heading {
-    line-height: 12px;
-  }
-}
