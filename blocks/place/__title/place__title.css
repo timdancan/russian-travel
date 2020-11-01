@@ -20,3 +20,10 @@
     line-height: 35px;
   }
 }
+
+@media (max-width: 320px) {
+  .place__title {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

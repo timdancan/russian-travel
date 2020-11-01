@@ -11,3 +11,9 @@
   }
 }
 
+@media (max-width: 320px) {
+  .place__paragraph {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
