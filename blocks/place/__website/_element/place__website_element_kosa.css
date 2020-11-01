@@ -1,9 +1,9 @@
-.place__website_element_first {
+.place__website_element_kosa {
   padding-top: 106px;
 }
 
 @media (max-width: 800px) {
-  .place__website_element_first {
+  .place__website_element_kosa {
     padding-top: 46px;
   }
 }
