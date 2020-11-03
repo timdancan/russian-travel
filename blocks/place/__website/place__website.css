@@ -1,8 +1,4 @@
-.place__website {
-  padding-bottom: 48px;
-}
-
-@media (max-width: 320px) {
+@media (max-width: 636px) {
   .place__website {
     display: none;
   }
