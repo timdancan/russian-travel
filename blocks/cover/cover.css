@@ -1,46 +1,23 @@
 .cover {
   width: 90%;
   margin: 92px auto 0;
-  position: relative;
-  min-height: 740px;
   max-width: 1184px;
 }
-
-/* .cover::before { решил попробовать вариант с вэбинара, но так и не получилось сделать так что бы это нормально выглядило 
-  content: '';
-  display: block;
-  padding-bottom: 62.5%;
-} */
 
 @media (max-width: 1024px) {
   .cover {
     width: 100%;
-    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .cover {
     margin-top: 90px;
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 624px) {
-.cover {
-    min-height: 380px;
   }
 }
 
 @media (max-width: 482px) {
   .cover {
       margin-top: 66px;
-      min-height: 292px;
-    }
-}
-
-@media (max-width: 320px) {
-  .cover {
-      min-height: 190px;
     }
 }

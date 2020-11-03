@@ -1,9 +1,0 @@
-.place__website_element_baykal {
-  padding-top: 106px;
-}
-
-@media (max-width: 800px) {
-  .place__website_element_baykal {
-    padding-top: 0;
-  }
-}

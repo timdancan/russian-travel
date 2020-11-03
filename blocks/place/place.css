@@ -5,6 +5,10 @@
   margin-top: 80px;
 }
 
+.place:first-child {
+  margin-top: 0;
+}
+
 @media (max-width: 768px) {
   .place {
     margin-top: 73px;
