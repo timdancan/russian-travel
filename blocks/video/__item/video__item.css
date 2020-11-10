@@ -1,0 +1,55 @@
+.video__item {
+  background-image: url(../../../images/kamchatka__video.jpg);
+  min-height: 323px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-right: 16px;
+  width: 100%;
+}
+
+.video__item::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  background-color: black;
+  z-index: 0;
+}
+
+.video__item:last-child {
+  background-image: url(../../../images/Observatoria__video.png);
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item {
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .video__item:last-child {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item {
+    min-height: 192px;
+  }
+}
